@@ -7,4 +7,5 @@ def foo():
 g = foo()
 print(next(g))
 print("*" * 20)
-print(next(g))
+#print(next(g))
+print(g.send(7))
